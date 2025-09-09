@@ -1,6 +1,8 @@
 #!/bin/bash
 
-read -p "Enter the number: " input
+# Create a script that will check if number is less 100 and then prints "less than 100" else prints "greater than 100" ?
+
+read -p "Enter a number: " input
 
 if [[ ${input} -eq 100 ]]
 then
